@@ -1,0 +1,19 @@
+body {
+   // padding: 0px;
+  //  box-sizing: border-box;
+  //  text-align: center;
+}
+#slideShow {
+    background-color: #666555;
+    height: 437px;
+    width: 437px;
+    margin: auto;
+    position: relative;
+}
+#slideShow img {
+    position: absolute;
+    opacity: 0;
+}
+#slideShow .current {
+    opacity: 1;
+}
