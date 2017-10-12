@@ -22,5 +22,5 @@ window.onload = function()
     
     slideShow.childNodes[(i+1) % imagesSrc.length].setAttribute("class","current");
     i++;
-  }, 2000);
+  }, 5000);
 };
